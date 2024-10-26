@@ -1,0 +1,19 @@
+.home___buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 1rem;
+}
+
+button {
+    background-color: transparent;
+    border: dimgray 2px solid;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+    font-weight: bold;
+}

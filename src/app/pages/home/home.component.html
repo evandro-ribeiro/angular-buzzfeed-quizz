@@ -1,0 +1,8 @@
+<div class="home___container">
+  <div class="home___buttons">
+    <button *ngIf="showButton" (click)="showHero()">Você seria herói ou vilão?</button>
+    <button *ngIf="showButton" (click)="showFitness()">Você é fitness ou relaxado?</button>
+  </div>
+  <app-quizz *ngIf="chosenTestHero"></app-quizz>
+  <app-quizz2 *ngIf="chosenTestFitness"></app-quizz2>
+</div>

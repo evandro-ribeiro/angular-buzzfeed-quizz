@@ -1,0 +1,55 @@
+{
+  "title":"Você é fitness ou sossegado?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual momento de lazer você escolheria?",
+      "options":[
+        {"id": 1, "name":"Praticar esporte com amigos", "alias":"A"},
+        {"id": 2, "name":"Ir ao cinema", "alias":"B"},
+        {"id": 3, "name":"Passear no parque", "alias":"A"},
+        {"id": 4, "name":"Conhecer novos restaurantes", "alias":"B"},
+        {"id": 5, "name":"Conhecer a cachoeira", "alias":"A"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Qual comida é a sua cara?",
+      "options":[
+        {"id": 1, "name":"Pizza", "alias":"B"},
+        {"id": 2, "name":"Churrasco", "alias":"B"},
+        {"id": 3, "name":"Comida japonesa", "alias":"A"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "O que você prefere?",
+      "options":[
+        {"id": 1, "name":"Assistir MasterChef", "alias":"B"},
+        {"id": 2, "name":"Organizar seus itens e planejamentos", "alias":"A"},
+        {"id": 3, "name":"Fazer uma sessão de jogos", "alias":"A"},
+        {"id": 4, "name":"Visitar seus familiares pra um café da tarde", "alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Você come sem medo de ser feliz?",
+      "options":[
+        {"id": 1, "name":"Prefiro fazer outras coisas do que comer", "alias":"A"},
+        {"id": 2, "name":"Claro! Só se vive uma vez.", "alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "O que te deixaria mais satisfeito(a)?",
+      "options":[
+        {"id": 1, "name":"Dormir gostoso", "alias":"A"},
+        {"id": 2, "name":"Comer gostoso", "alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você muito provavelmente é fitness!",
+    "B": "Você muito provavelmente é mais relaxado(a)!"
+  }
+}
